@@ -62,7 +62,7 @@ const sections = [
       {
         "id": "B1",
         "type": "input",
-        "prompt": "1. w _ _ l _",
+        "prompt": "1. _ _ _ l _",
         "answers": [
           "world"
         ],
@@ -72,7 +72,7 @@ const sections = [
       {
         "id": "B2",
         "type": "input",
-        "prompt": "2. t _ _   c o _ _ t _ _",
+        "prompt": "2. t _ _ - _ o _ _ t _ _",
         "answers": [
           "the country"
         ],
@@ -92,12 +92,11 @@ const sections = [
       {
         "id": "B4",
         "type": "input",
-        "prompt": "4. n _ _ _ _ b _ _ h _ _ _",
+        "prompt": "4. n _ _ g _ _ _ _ h _ _ _",
         "answers": [
-          "neighborhood",
-          "neighbourhood"
+          "neighborhood"
         ],
-        "explanation": "Tranh vẽ nhiều ngôi nhà ở cùng một khu. Neighborhood nghĩa là khu phố.",
+        "explanation": "Điền neighborhood để khớp đủ số chữ cái và các chữ gợi ý đã cho trong đề.",
         "image": "assets/extracted/page1-img8-459x328.png"
       }
     ]
@@ -517,7 +516,7 @@ const sections = [
       {
         "id": "I2",
         "type": "input",
-        "prompt": "2. _ _ _ e _ _ a r _ _ t",
+        "prompt": "2. _ _ _ e _ _ _ r _ _ t",
         "answers": [
           "supermarket"
         ],
